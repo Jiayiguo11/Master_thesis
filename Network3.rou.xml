@@ -1,0 +1,21 @@
+<routes>
+   <vType  accel="2.0" decel="5.0" id="cars" maxSpeed="30"  reroute="true" departSpeed="speedLimit" laneChangeModel="SL2015" lcSpeedGainLookahead="0" lcSublane="1" lcPushy="0.3" lcSpeedGain="50"/>
+
+   <route id="route1" edges="em1_2 em2_3 em3_4 em4_5 em5_6 em6_7 em7_8 em8_9 em9_10 em10_11 em11_12 em12_13 e13_14 e14_15 e15_16 e16_17"/>
+   <route id="route2" edges="em1_2 em2_3 offramp1_1 offramp1_2 offramp1_3 onramp3 es5_6 es6_7 es7_8 ns8_nm13 e13_14 e14_15 e15_16 e16_17"/>
+
+
+   <flow type="cars"  id="o2_d" begin="0" end="3300" vehsPerHour="3400" from="es1_2" to="e16_17" departLane="random" departSpeed="speedLimit"/>
+<!--   <flow id="o1_dr2" begin="0" end="3600" vehsPerHour="1000" from="em1_2" to="offramp2" departLane="random" departSpeed="max"/>-->
+   <flow type="cars"  id="or1_d" begin="0" end="1800" vehsPerHour="800" from="onramp1" to="e16_17" departLane="random" departSpeed="speedLimit"/>
+
+   <flow type="cars"  id="or2_d" begin="0" end="3600" vehsPerHour="1" from="onramp2" to="e16_17" departLane="random" departSpeed="speedLimit"/>
+   <flow type="cars"  id="o1_d" begin="0" end="600" vehsPerHour="2500" from="em1_2" to="e16_17" departLane="random" departSpeed="speedLimit"/>
+   <flow type="cars"  id="o1_d_2" begin="601" end="1200" vehsPerHour="3800" from="em1_2" to="e16_17" departLane="random" departSpeed="speedLimit"/>
+   <flow type="cars"  id="o1_d_3" begin="1201" end="2400" vehsPerHour="3800" from="em1_2" to="e16_17" departLane="random" departSpeed="speedLimit"/>
+   <flow type="cars"  id="or1_d_1" begin="1801" end="3300" vehsPerHour="500" from="onramp1" to="e16_17" departLane="random" departSpeed="speedLimit"/>
+   <flow type="cars"  id="o1_d_4" begin="2401" end="3300" vehsPerHour="3500" from="em1_2" to="e16_17" departLane="random" departSpeed="speedLimit"/>
+<!--   <flow type="cars"  id="o1_d_5" begin="3001" end="3600" vehsPerHour="500" from="em1_2" to="e16_17" departLane="random" departSpeed="speedLimit"/>-->
+
+
+</routes>

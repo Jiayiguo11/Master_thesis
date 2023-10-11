@@ -1,0 +1,21 @@
+<configuration>
+
+    <input>
+        <net-file value="Network_new_no_dsbnk_new.net.xml"/>
+        <route-files value="Network3.rou.xml"/>
+        <additional-files value="Network1_additional.add.xml"/>
+
+
+    </input>
+
+
+
+    <time>
+        <begin value="0"/>
+        <end value="3600"/>
+        <step-length value="1"/>
+    </time>
+
+
+
+</configuration>
