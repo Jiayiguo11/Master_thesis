@@ -1,5 +1,6 @@
 # Master_thesis
-This repository includes codes for SUMO simulation described in the master thesis
+This repository includes codes for SUMO simulation described in the master thesis _Impacts of the Coordination of DTMs with Different Local Control
+Objectives Considering Their Spatial Layout_ by Jiayi Guo. The thesis can be find on: https://repository.tudelft.nl/islandora/object/uuid%3Ab8dc2aea-f13e-4ea1-9953-905403b0ce61?collection=education
 
 Two Excel spreadsheets summarise the simulation results.
 
